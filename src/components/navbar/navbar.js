@@ -11,7 +11,7 @@ class Navbar extends React.Component {
                     <a href="#muster">MUSTER</a>
                     <a href="#myKt">MY KILL TEAM</a>
                     <a href="#contact">CONTACT</a>
-                    <i id="responsiveToggle" class="fas fa-bars responsive-nav"></i>
+                    <i id="responsiveToggle " class="fas fa-bars responsive-nav"></i>
                 </div>
             </div>
         );
