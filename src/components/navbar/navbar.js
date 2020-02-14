@@ -1,5 +1,6 @@
 import React from 'react';
-import './navbar.css';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 class Navbar extends React.Component {
     render(){
@@ -7,27 +8,37 @@ class Navbar extends React.Component {
         return (
             <div className="Nav">
                 <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-                    <a className="navbar-brand" href="#">KT Front</a>
+                    <Link to='/' style={{ textDecoration: 'none' }}>
+                    <div className="navbar-brand">KT Front</div>
+                    </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
+                            <Link to='/' style={{ textDecoration: 'none' }}>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Home</a>
+                                Home
                             </li>
+                            </Link>
                             <div className="line"></div>
+                            <Link to='/muster' style={{ textDecoration: 'none' }}>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Muster</a>
+                                Muster
                             </li>
+                            </Link>
                             <div className="line"></div>
+                            <Link to='my_kt' style={{ textDecoration: 'none' }}>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">My Kill Teams</a>
+                                My Kill Teams
                             </li>
+                            </Link>
                             <div className="line"></div>
+                            <Link to='/account' style={{ textDecoration: 'none' }}>
                             <li className="nav-item account-link">
-                                <a className="nav-link account-link" href="#">My Account</a>
+                                My Account
                             </li>
+                            </Link>
                         </ul>
                     </div>
                 </nav>

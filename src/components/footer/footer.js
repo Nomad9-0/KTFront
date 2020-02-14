@@ -1,10 +1,10 @@
 import React from 'react';
-import './footrt.css';
+import './Footer.css';
 
 class Footer extends React.Component {
     render(){
         return (
-            <div className="App">
+            <div className="Footer">
             <h1>KT Front</h1>
             </div>
         );
