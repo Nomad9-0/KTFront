@@ -1,0 +1,22 @@
+.StatContainer {
+    border: 2px solid #222222;
+    width: 50px;
+    background-color: silver;
+    text-align: center;
+}
+.statHeader {
+    border-bottom: 2px solid #222222;
+    background: orangered;
+}
+.letter {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.movement {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}

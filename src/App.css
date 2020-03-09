@@ -1,8 +1,14 @@
 .App {
   text-align: center;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   background: #FFFFFF;
+}
+.bannerTitle {
+  padding: 25px;
+  background: orangered;
+  color: #FFFFFF;
+  margin-bottom: 0px;
 }
