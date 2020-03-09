@@ -13,11 +13,13 @@ function App() {
       <h1 className='bannerTitle'>KILL TEAM FRONT</h1>
     <Router>
         <Navbar />
-        <Route path="/" exact component={Home} />
-        <Route path="/muster" component={Muster} />
-        <Route path="/my_kt" component={MyKt} />
-        <Route path="/account" component={Account} />
-        <Route path="/my_kt/unit" />
+        <div className='bodyWrapper'>
+          <Route path="/" exact component={Home} />
+          <Route path="/muster" component={Muster} />
+          <Route path="/my_kt" component={MyKt} />
+          <Route path="/account" component={Account} />
+          <Route path="/my_kt/unit" />
+        </div>
     </Router>
     </div>
   );
