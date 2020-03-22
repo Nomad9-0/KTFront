@@ -6,7 +6,7 @@ class Navbar extends React.Component {
     render(){
         
         return (
-            <div className="Nav">
+            <div className="Navbar">
                 <nav className="navbar navbar-expand-lg navbar-light bg-dark">
                     <Link to='/' style={{ textDecoration: 'none' }}>
                     <div className="navbar-brand">KT Front</div>
