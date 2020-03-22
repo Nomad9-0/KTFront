@@ -3,6 +3,7 @@ import UnitInfo from '../data_card/UnitInfo';
 import QuickInfo from '../quick_info/QuickInfo';
 import WeaponsBox from '../weapons_box/WeaponsBox';
 import Abilities from '../abilities/Abilities';
+import Tactics from '../tactics/Tactics';
 import './MyKt.css';
 
 class MyKt extends React.Component  {
@@ -14,6 +15,7 @@ class MyKt extends React.Component  {
         <QuickInfo />
         <WeaponsBox />
         <Abilities />
+        <Tactics />
       </div>
     );
   }

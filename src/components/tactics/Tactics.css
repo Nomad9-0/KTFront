@@ -1,0 +1,27 @@
+.tacticsTab {
+    display: inline-block;
+    padding: 5px;
+}
+.tabLink {
+    overflow: hidden;
+    border: 1px solid #222;
+    background-color: silver;
+    color: #222;
+    padding: 15px;
+    font-weight: 700;
+}
+.tabLink:hover {
+    overflow: hidden;
+    background-color: orangered;
+    color: #FFF;
+}
+.tacticsTab button.active {
+    background-color: orangered;
+    color: #FFF;
+}
+.tabContent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
