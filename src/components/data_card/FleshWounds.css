@@ -1,0 +1,30 @@
+.FleshWounds {
+    border: 2px solid #222222;
+    padding: 0px 10px 10px 10px;
+}
+.FleshWounds h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.fleshWounds {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+}
+.FleshWounds .fleshWounds:checked {
+    border: 1px solid #adb8c0;
+    color: #222222;
+}
+.FleshWounds .fleshWounds:checked:after {
+	font-size: 14px;
+    vertical-align: top;
+}
+#fleshWound1, #fleshWound2 {
+    margin-right: 20px;
+}
