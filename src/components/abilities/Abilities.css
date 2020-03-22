@@ -1,0 +1,8 @@
+.abilityContainer {
+    background: silver;
+    text-align: left;
+}
+#ability {
+    border: 1px solid #222; 
+    padding: 10px 10px 0 10px;
+}
