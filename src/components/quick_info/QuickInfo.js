@@ -1,5 +1,7 @@
 import React from 'react';
 import StatContainer from '../data_card/StatContainer';
+import Shaken from '../data_card/Shaken';
+import FleshWounds from '../data_card/FleshWounds';
 import './QuickInfo.css';
 
 class QuickInfo extends React.Component  {
@@ -15,6 +17,8 @@ class QuickInfo extends React.Component  {
           <StatContainer />
           <StatContainer />
           <StatContainer />
+          <Shaken />
+          <FleshWounds />
       </div>
     );
   }

@@ -1,0 +1,44 @@
+.UnitInfo {
+    text-align: left;
+    font-Weight: 700;
+    padding: 5px;
+}
+#unitImg {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border: 2px solid orangered;
+    vertical-align: middle;
+}
+.unitDetails {
+    display: inline-block;
+    width: auto;
+    margin-left: 10px;
+    vertical-align: top;
+}
+#unitName {
+    margin-bottom: 0px;
+}
+#unitType {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 12px;
+}
+#specialist {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.unitPoints {
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+#unitPoint {
+    font-weight:700;
+    margin-right: 5px;
+    display: inline-block;
+}
+.points {
+    display: inline-block;
+}

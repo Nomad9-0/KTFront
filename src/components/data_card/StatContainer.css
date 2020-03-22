@@ -1,6 +1,6 @@
 .StatContainer {
     border: 2px solid #222222;
-    width: 50px;
+    width: 80px;
     background-color: silver;
     text-align: center;
 }
@@ -12,11 +12,11 @@
     padding: 5px;
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 .movement {
     padding: 5px;
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
