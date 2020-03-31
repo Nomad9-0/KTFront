@@ -1,27 +1,16 @@
-.tacticsTab {
-    display: inline-block;
-    padding: 5px;
+.tabNames {
+    text-align: left;
+    border-bottom: 1px solid #aaa;
 }
-.tabLink {
-    overflow: hidden;
-    border: 1px solid #222;
-    background-color: silver;
-    color: #222;
-    padding: 15px;
+.react-tabs__tab {
+    font-size: 20px;
     font-weight: 700;
 }
-.tabLink:hover {
-    overflow: hidden;
-    background-color: orangered;
-    color: #FFF;
+.react-tabs__tab--selected {
+    color: #ffffff !important;
+    background: orangered !important;  
 }
-.tacticsTab button.active {
-    background-color: orangered;
-    color: #FFF;
-}
-.tabContent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+.react-tabs__tab:hover {
+    color: #ffffff;
+    background: orangered;  
 }
