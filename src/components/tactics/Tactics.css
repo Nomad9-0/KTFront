@@ -1,0 +1,26 @@
+.Tactics {
+    margin-bottom: 24px;
+    margin-top: 45px;
+}
+.tabNames {
+    text-align: left;
+    border-bottom: 1px solid #aaa;
+}
+.react-tabs__tab {
+    font-size: 20px;
+    font-weight: 700;
+    background: silver;
+    border-radius: 10px 10px 0px 0px;
+}
+.react-tabs__tab--selected {
+    color: #ffffff !important;
+    background: orangered !important;  
+    border-radius: 10px 10px 0px 0px !important;
+}
+.react-tabs__tab:hover {
+    color: #ffffff;
+    background: orangered;  
+}
+.tabBody {
+    text-align: left;
+}
