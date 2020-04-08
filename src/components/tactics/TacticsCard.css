@@ -1,3 +1,25 @@
 .TacticsCard {
     display: inline-block;
+    border: 2px solid orangered;
+    background: orangered;
+    width: 200px;
+    padding: 2px;
+    text-align: left;
+    margin-right: 5px;
+}
+#tacticName {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+#tacticBody {
+    font-size: 15px;
+    background: #fff;
+    margin-bottom: 0;
+    padding: 2px;
+}
+#tacticPoint {
+    text-align: right;
+    font-weight: 700;
+    margin-bottom: 0;
 }

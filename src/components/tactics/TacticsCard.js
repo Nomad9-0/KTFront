@@ -8,7 +8,7 @@ class TacticsCard extends React.Component  {
       <div className="TacticsCard">
           <p id='tacticName'>Name</p>
           <p id='tacticBody'>Body</p>
-          <p id='tacticPont'>2</p>
+          <p id='tacticPoint'>2</p>
       </div>
     );
   }

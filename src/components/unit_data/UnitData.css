@@ -1,0 +1,14 @@
+.UnitData {
+    text-align: center;
+}
+.rosterCards {
+    border: 2px solid #222; 
+    padding: 5px;
+    padding-top: 0;
+    width: 30%;
+    display: inline-block;
+    margin: 4px 4px 4px 4px;
+}
+.rosterCards .UnitInfo {
+    margin-bottom: 0px;
+}
