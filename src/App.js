@@ -4,7 +4,8 @@ import Home from './components/home/Home';
 import Muster from './components/muster/Muster';
 import MyKt from './components/my_kt/MyKt';
 import Account from './components/account/Account';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import NotFoundPage from './components/NotFoundPage';
 import './App.css';
 
 function App() {
@@ -14,11 +15,14 @@ function App() {
     <Router>
         <Navbar />
         <div className='bodyWrapper'>
+        <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/muster" component={Muster} />
           <Route path="/my_kt" component={MyKt} />
           <Route path="/account" component={Account} />
           <Route path="/my_kt/unit" />
+          <Route component={NotFoundPage} />
+        </Switch>
         </div>
     </Router>
     </div>

@@ -4,9 +4,7 @@ import './Tactics.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-class Tactics extends React.Component  {
-
-  render(){
+function Tactics() {
     return (
       <div className="Tactics">
         <h2>Tactics</h2>
@@ -32,7 +30,6 @@ class Tactics extends React.Component  {
         </Tabs>   
       </div>
     );
-  }
 }
 
 export default Tactics;

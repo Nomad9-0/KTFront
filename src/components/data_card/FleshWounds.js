@@ -1,8 +1,7 @@
 import React from 'react';
 import './FleshWounds.css';
 
-class FleshWounds extends React.Component  {
-  render(){
+function FleshWounds() {
     return (
       <div className="FleshWounds">
         <h3>Flesh Wounds</h3>
@@ -11,7 +10,6 @@ class FleshWounds extends React.Component  {
         <input type="checkbox" id='fleshWound3' className='fleshWounds'></input>
       </div>
     );
-  }
 }
 
 export default FleshWounds;

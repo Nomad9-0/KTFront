@@ -1,8 +1,7 @@
 import React from 'react';
 import './Abilities.css';
 
-class Abilities extends React.Component  {
-  render(){
+function Abilities() {
     return (
       <div className="Abilities">
         <h2>Abilities</h2>  
@@ -19,7 +18,6 @@ class Abilities extends React.Component  {
         </div>
       </div>
     );
-  }
 }
 
 export default Abilities;
