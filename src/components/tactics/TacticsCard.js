@@ -1,8 +1,7 @@
 import React from 'react';
 import './TacticsCard.css';
 
-class TacticsCard extends React.Component  {
-  render(){
+function TacticsCard() {
     return (
     // Will pull card data from backend
       <div className="TacticsCard">
@@ -11,7 +10,6 @@ class TacticsCard extends React.Component  {
           <p id='tacticPoint'>2</p>
       </div>
     );
-  }
 }
 
 export default TacticsCard;

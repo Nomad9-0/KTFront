@@ -6,8 +6,7 @@ import Abilities from '../abilities/Abilities';
 import Tactics from '../tactics/Tactics';
 import './UnitData.css';
 
-class UnitData extends React.Component  {
-  render(){
+function UnitData() {
     return (
       <div className="UnitData">
         <div className='rosterCards'>
@@ -63,7 +62,6 @@ class UnitData extends React.Component  {
         </div>
       </div>
     );
-  }
 }
 
 export default UnitData;

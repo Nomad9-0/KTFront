@@ -1,8 +1,7 @@
 import React from 'react';
 import './StatContainer.css';
 
-class StatContainer extends React.Component  {
-  render(){
+function StatContainer() {
     return (
       <div className="StatContainer">
         <div className='statHeader'>
@@ -15,7 +14,6 @@ class StatContainer extends React.Component  {
         </div>
       </div>
     );
-  }
 }
 
 export default StatContainer;

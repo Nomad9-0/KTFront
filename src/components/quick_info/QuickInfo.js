@@ -4,8 +4,7 @@ import Shaken from '../data_card/Shaken';
 import FleshWounds from '../data_card/FleshWounds';
 import './QuickInfo.css';
 
-class QuickInfo extends React.Component  {
-  render(){
+function QuickInfo() {
     return (
       <div className="QuickInfo">
           <StatContainer />
@@ -21,7 +20,6 @@ class QuickInfo extends React.Component  {
           <FleshWounds />
       </div>
     );
-  }
 }
 
 export default QuickInfo;

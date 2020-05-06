@@ -1,8 +1,7 @@
 import React from 'react';
 import './UnitInfo.css';
 
-class UnitInfo extends React.Component  {
-  render(){
+function UnitInfo() {
     return (
       <div className="UnitInfo">
         <div id='unitImg'></div>
@@ -23,7 +22,6 @@ class UnitInfo extends React.Component  {
         </div>
       </div>
     );
-  }
 }
 
 export default UnitInfo;
