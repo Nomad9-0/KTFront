@@ -4,7 +4,7 @@ import './Home.css';
 function Home() {
     return (
       <div className="Home">
-        <h1>Home Page</h1>
+        <h1>Get Started with Kill Team Front!</h1>
       </div>
     );
 }
