@@ -1,4 +1,42 @@
+.Home {
+    background: #222;
+}
+.jumbotron {
+    border-radius: 0; 
+}
 .Home h1 {
     text-transform: uppercase;
-    padding-top: 31px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#FFF;
+}
+.btn {
+    border-radius: 50px;
+    background:#343a40;
+    color: #fff;
+    font-weight: 700;
+    border: solid 2px orangered;
+    margin-bottom: 25px;
+}
+.btn:hover {
+    background:orangered;
+    color: #fff;
+    border-color: orangered;
+}
+.about {
+    background: #fff;
+    color: #222;
+    text-align: left;
+    padding: 18px;
+    margin-top: 55px;
+}
+.about h2 {
+    text-transform: uppercase;
+}
+.about p {
+    font-size: 20px;
+}
+.about p span {
+    font-weight: bold;
+    color: orangered;
 }
