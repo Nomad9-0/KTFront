@@ -2,7 +2,8 @@
     background: #222;
 }
 .jumbotron {
-    border-radius: 0; 
+    border-radius: 0;
+    background: #222; 
 }
 .Home h1 {
     text-transform: uppercase;
@@ -28,7 +29,6 @@
     color: #222;
     text-align: left;
     padding: 18px;
-    margin-top: 55px;
 }
 .about h2 {
     text-transform: uppercase;

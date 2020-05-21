@@ -6,7 +6,7 @@ function MyKt() {
     return (
       <div className="MyKt">
         <h1>My KT</h1>  
-        <UnitData />
+        
       </div>
     );
 }

@@ -1,0 +1,27 @@
+#selectedTeam {
+    color: #fff;
+}
+.description {
+    color: #fff;
+}
+.addRemoveContainer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    max-width: 1200px;
+}
+.addMember {
+    width: 50%;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.removeMember {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.removeMember:hover {
+    background: red;
+}
