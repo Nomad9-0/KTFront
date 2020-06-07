@@ -7,8 +7,10 @@ import Account from './components/account/Account';
 import CreateTeam from './components/muster/create_team/CreateTeam';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import NotFoundPage from './components/NotFoundPage';
+import Modal from 'react-modal';
 import './App.css';
 
+Modal.setAppElement('#root');
 function App() {
   return (
     <div className="App">

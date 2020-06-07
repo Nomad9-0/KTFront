@@ -25,3 +25,18 @@
 .removeMember:hover {
     background: red;
 }
+.ReactModal__Content {
+    width: 800px;
+    margin: auto;
+}
+.ReactModal__Content .addMemberModalClose {
+    float: right;
+    border: none;
+    font-size: 12px;
+}
+.ReactModal__Content .addMemberModalClose:hover {
+    background: red;
+}
+.ReactModal__Content .addMemberModalTitle {
+    text-align: center;
+}
